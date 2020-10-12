@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Kurale&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    place-items: center;
+    background: #e2edd7;
+}
+
+#container{
+    width: 1000px;
+    height: 100vh;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+.card{
+    margin-top: 20px !important;
+    margin-left: 100px !important;
+    margin-right: 20px !important;
+    width: 800px !important;
+    border-radius: 37px !important;
+    background: #e2edd7 !important;
+    box-shadow: -3px -3px 7px #c0c9b7,
+                2px 2px 5px #fffff7 !important;
+
+}
+
+.title{
+    text-align: left;
+}
+
+.result{
+    text-align: left;
+}
+
+.row{
+    margin-bottom: 10px;
+}
+
+img{
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    box-shadow: 10px 10px 5px #ccc;
+  -moz-border-radius:25px;
+  -webkit-border-radius:25px;
+  border-radius:25px;
+    
+}
+
+h1{
+    margin-top: 40px !important;
+}
+
+.emoji{
+    font-size: 20px;
+}
+
+.topword{
+    
+    margin: 0 auto !important;
+    margin-bottom: 20px !important;
+}
+
+input{
+    height: 50px !important;
+    width: 100% !important;
+    background: #dde1e7 !important;
+    border-radius: 5px !important;
+    color: #595959 !important;
+    /* box-shadow: inset -3px -3px 7px #c0c9b7, */
+               /* inset 2px 2px 5px #fffff7 !important; */
+               box-shadow: -3px -3px 7px #c0c9b7,
+               2px 2px 5px #fffff7 !important;
+
+}
+
+input[type=text]{
+    background:none !important;
+    border: none !important;
+    outline: none !important;
+    font-size: 20px !important;
+    font-family: 'Kurale', serif !important;
+    font-weight: 500px;
+    padding: 0px 20px;
+    text-align: right;
+    color: #464242;
+
+}
+
+.resultfont{
+    font-family: 'Kurale', serif !important;
+    font-size: 18px;
+}
+
+h4,h1{
+    font-family: 'Yeseva One', cursive !important;
+}
+
+hr{
+    width: 800px !important;
+    color: gray !important;
+}
+
+@media only screen and (max-width: 600px) {
+    #container {
+      width: 400px;
+    }
+    .card{
+        width: 370px !important;
+        margin-left: 15px !important;
+        margin-right: 10px !important;
+    }
+    img{
+        width: 150px;
+    }
+  }
